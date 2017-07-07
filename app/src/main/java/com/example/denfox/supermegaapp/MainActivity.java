@@ -11,6 +11,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    //TODO: Dont forget to declare your class here.
     private SomeSecondClass someSecondClass;
 
     @Override
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         initSomeClassStuff();
+
+        //TODO: Put your classes-init here!!!
 
     }
 
