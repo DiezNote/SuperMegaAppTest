@@ -13,8 +13,11 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO: Dont forget to declare your class here.
     private SomeSecondClass someSecondClass;
+
     private IgorMetlin igorMetlin;
     private Mischenko mischenko;
+    private Peters peters;
+    private Nedomovny nedomovny;
     private Sibichenko sibichenko;
 
     @Override
@@ -36,8 +39,11 @@ public class MainActivity extends AppCompatActivity {
         initSomeClassStuff();
 
         //TODO: Put your classes-init here!!!
+
         igorMetlin = new IgorMetlin();
         mischenko = new Mischenko();
+        peters = new Peters();
+        nedomovny = new Nedomovny();
         sibichenko = new Sibichenko();
 
     }
