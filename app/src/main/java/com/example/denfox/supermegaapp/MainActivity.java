@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private SomeSecondClass someSecondClass;
     private IgorMetlin igorMetlin;
     private Mischenko mischenko;
+    private Sibichenko sibichenko;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO: Put your classes-init here!!!
         igorMetlin = new IgorMetlin();
         mischenko = new Mischenko();
+        sibichenko = new Sibichenko();
 
     }
 
