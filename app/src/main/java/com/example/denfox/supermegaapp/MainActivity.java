@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     //TODO: Dont forget to declare your class here.
     private SomeSecondClass someSecondClass;
+    private Nedomovny nedomovny;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         initSomeClassStuff();
 
         //TODO: Put your classes-init here!!!
+        nedomovny = new Nedomovny();
 
     }
 
