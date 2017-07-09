@@ -10,5 +10,6 @@ public class AlexTarasyuk {
 
     public AlexTarasyuk() {
         System.out.println(name);
+        System.out.println("Ver2");
     }
 }
