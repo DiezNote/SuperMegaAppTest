@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         peters = new Peters();
         nedomovny = new Nedomovny();
         sibichenko = new Sibichenko();
-
+        serdunDmitro=SerdunDmitro.getInstance();
     }
 
     private void initSomeClassStuff() {
