@@ -1,7 +1,7 @@
 package com.example.denfox.supermegaapp;
 
 /**
- * Created by Peter on 08.07.2017.
+ * Created by Peters on 08.07.2017.
  */
 
 public class Peters {
@@ -12,6 +12,7 @@ public class Peters {
     public Peters() {
         firstName = "Dima";
         lastName = "Peters";
+        fullName = fullName();
     }
 
     public String getFirstName() {
@@ -21,8 +22,11 @@ public class Peters {
     public String getLastName() {
         return lastName;
     }
-
     public String getFullName() {
+        return fullName;
+    }
+
+    private String fullName() {
         return firstName + " " + lastName;
     }
 }
