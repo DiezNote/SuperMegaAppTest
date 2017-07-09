@@ -11,7 +11,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    //TODO: Dont forget to declare your class here.
+    //TODO: Don't forget to declare your class here.
     private SomeSecondClass someSecondClass;
 
     private IgorMetlin igorMetlin;
@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private Peters peters;
     private Nedomovny nedomovny;
     private Sibichenko sibichenko;
-    private SerdunDmitro serdunDmitro;
     private Volkov volkov;
+    private SerdunDmitro serdunDmitro;
     private ZaychenkoEugene zaychenkoEugene;
 
     @Override
@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         peters = new Peters();
         nedomovny = new Nedomovny();
         sibichenko = new Sibichenko();
+        volkov = Volkov.getInstance();
         serdunDmitro = SerdunDmitro.getInstance();
         zaychenkoEugene = new ZaychenkoEugene();
 
