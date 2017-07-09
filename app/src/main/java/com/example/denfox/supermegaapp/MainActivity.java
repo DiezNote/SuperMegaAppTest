@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Sibichenko sibichenko;
     private SerdunDmitro serdunDmitro;
     private Volkov volkov;
+    private AlexTarasyuk alexTarasyuk;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
