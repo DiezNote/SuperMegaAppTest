@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Peters peters;
     private Nedomovny nedomovny;
     private Sibichenko sibichenko;
+    private Volkov volkov;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         peters = new Peters();
         nedomovny = new Nedomovny();
         sibichenko = new Sibichenko();
-
+        volkov = Volkov.getInstance();
     }
 
     private void initSomeClassStuff() {
