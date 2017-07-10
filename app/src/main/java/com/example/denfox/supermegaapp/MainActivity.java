@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         serdunDmitro = SerdunDmitro.getInstance();
         zaychenkoEugene = new ZaychenkoEugene();
         provotorov = new Provotorov();
-        cherepinina= new Cherepinina();
+        cherepinina = new Cherepinina();
 
     }
 
