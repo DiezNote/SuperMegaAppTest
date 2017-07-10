@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         mischenko = new Mischenko();
         peters = new Peters();
         nedomovny = new Nedomovny();
-        sibichenko = new Sibichenko();
+        sibichenko = new Sibichenko(MainActivity.this);
         volkov = Volkov.getInstance();
         serdunDmitro = SerdunDmitro.getInstance();
         zaychenkoEugene = new ZaychenkoEugene();
