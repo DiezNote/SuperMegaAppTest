@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //TODO: Put your classes-init here!!!
         igorMetlin = new IgorMetlin();
         mischenko = new Mischenko();
-        sibichenko = new Sibichenko();
+        sibichenko = new Sibichenko(MainActivity.this);
 
     }
 
