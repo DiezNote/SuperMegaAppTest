@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private Provotorov provotorov;
     private Cherepinina cherepinina;
     private Romasiuk romasiuk;
+    private AfanasievV afanasiev;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         provotorov = new Provotorov();
         cherepinina = new Cherepinina();
         romasiuk = new Romasiuk();
-
+        afanasiev = new AfanasievV();
     }
 
     private void initSomeClassStuff() {
