@@ -11,7 +11,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    //TODO: Dont forget to declare your class here.
+    //TODO: Don't forget to declare your class here.
     private SomeSecondClass someSecondClass;
 
     private IgorMetlin igorMetlin;
@@ -23,6 +23,12 @@ public class MainActivity extends AppCompatActivity {
     private SerdunDmitro serdunDmitro;
     private ZaychenkoEugene zaychenkoEugene;
     private GorpenkoDan gorpenkoDan;
+    private Provotorov provotorov;
+    private Cherepinina cherepinina;
+    private Romasiuk romasiuk;
+    private Kuchura kuchura;
+    private AfanasievV afanasiev;
+    private Lenskaya katarinaLenskaya;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +59,17 @@ public class MainActivity extends AppCompatActivity {
         serdunDmitro = SerdunDmitro.getInstance();
         zaychenkoEugene = new ZaychenkoEugene();
         gorpenkoDan = new GorpenkoDan();
+        sibichenko = new Sibichenko(MainActivity.this);
+        volkov = Volkov.getInstance();
+        serdunDmitro = SerdunDmitro.getInstance();
+        zaychenkoEugene = new ZaychenkoEugene();
+        provotorov = new Provotorov();
+        cherepinina = new Cherepinina();
+        romasiuk = new Romasiuk();
+        kuchura = new Kuchura("Oleg");
 
+        afanasiev = new AfanasievV();
+        katarinaLenskaya = new Lenskaya();
     }
 
     private void initSomeClassStuff() {
@@ -91,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         someSecondClass.doSomethingTruly();
     }
-
 
 
 }
