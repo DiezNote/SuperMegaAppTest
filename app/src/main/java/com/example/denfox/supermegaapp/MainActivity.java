@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Volkov volkov;
     private SerdunDmitro serdunDmitro;
     private ZaychenkoEugene zaychenkoEugene;
+    private GorpenkoDan gorpenkoDan;
     private Provotorov provotorov;
     private Cherepinina cherepinina;
     private Romasiuk romasiuk;
@@ -53,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         mischenko = new Mischenko();
         peters = new Peters();
         nedomovny = new Nedomovny();
+        sibichenko = new Sibichenko();
+        volkov = Volkov.getInstance();
+        serdunDmitro = SerdunDmitro.getInstance();
+        zaychenkoEugene = new ZaychenkoEugene();
+        gorpenkoDan = new GorpenkoDan();
         sibichenko = new Sibichenko(MainActivity.this);
         volkov = Volkov.getInstance();
         serdunDmitro = SerdunDmitro.getInstance();
